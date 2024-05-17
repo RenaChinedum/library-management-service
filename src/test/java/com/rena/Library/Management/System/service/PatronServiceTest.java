@@ -4,7 +4,6 @@ import com.rena.Library.Management.System.Repository.PatronRepository;
 import com.rena.Library.Management.System.TestUtil;
 import com.rena.Library.Management.System.dtos.request.PatronDetailRequest;
 import com.rena.Library.Management.System.enums.Role;
-import com.rena.Library.Management.System.exceptions.ErrorStatus;
 import com.rena.Library.Management.System.exceptions.LMSystemException;
 import com.rena.Library.Management.System.model.Patron;
 import org.junit.jupiter.api.BeforeEach;
@@ -12,7 +11,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -22,8 +20,6 @@ import org.springframework.security.core.context.SecurityContextHolder;
 
 import java.util.Optional;
 
-import static com.rena.Library.Management.System.TestUtil.getPatron;
-import static com.rena.Library.Management.System.TestUtil.getRequest;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;

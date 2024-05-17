@@ -53,6 +53,9 @@ bash
 
 -The tests cover the service layers and repository layers using Mockito.
 
+## Api Docummentaion
+The api docummetation was done using SpringFox library for swagger configuration, which reveals every endpoint and their respective request as well as response.
+
 - ## Security
 The application uses Spring Security for authentication and authorization. The default username is admin and the default password is password.
 
